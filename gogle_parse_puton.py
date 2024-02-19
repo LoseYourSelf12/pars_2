@@ -44,4 +44,5 @@ if __name__ == "__main__":
     query = input("Введите запрос для поиска изображений: ")
     limit = int(input("Введите количество изображений для скачивания: "))
     
+    
     download_images(query, limit)
